@@ -20,7 +20,7 @@ lines_waves = [4862.7, 5008.2, 6564.6, 6585.3]
 embeddings_x = np.load('./data_for_umap_dash/umap_x.npy')
 embeddings_y = np.load('./data_for_umap_dash/umap_y.npy')
 color_coding = np.load('./data_for_umap_dash/color_coding.npy')
-rest_frame_spectra = np.concatenate((np.load('./data_for_umap_dash/rest_frame_spectra1.npy'),np.load('./data_for_umap_dash/rest_frame_spectra2.npy')), axis=0)
+rest_frame_spectra = np.load('./data_for_umap_dash/rest_frame_spectra.npy')
 fluxes = np.load('./data_for_umap_dash/fluxes.npy')
 wavelength = np.load('./data_for_umap_dash/wavelength.npy')
 bin_centers = np.load('./data_for_umap_dash/bin_centers.npy')
