@@ -46,5 +46,6 @@ app = dash_script.dash_plot_spectra(x={'Continuum UMAP axis 1': embeddings_x}, y
                                                 {'[OIII] EW': oiii_ews},\
                                                 {'H_alpha EW': h_alpha_ews},\
                                                 {'[NII] EW': nii_ews}])
+server = app.server                                                
 if __name__ == '__main__':
     app.run_server(debug=True)
